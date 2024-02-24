@@ -5,7 +5,7 @@ reddit = praw.Reddit(client_id='client_id',
                      client_secret='client_secret',
                      user_agent='user_agent')
 
-subreddit = reddit.subreddit('confession')
+subreddit = reddit.subreddit('confession') #I choose confession subreddit for scraping data.
 
 
 #List for storing top posts and comments which get most votes.
